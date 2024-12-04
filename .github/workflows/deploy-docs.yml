@@ -1,5 +1,5 @@
 
-name: 部署文档
+name: Deploy the documentation
 
 on:
   push:
@@ -17,32 +17,32 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
+          # If your documentation requires Git submodules, uncomment the next line
           # submodules: true
 
 
 
-      - name: 设置 Node.js
+      - name: Set Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: 安装依赖
+      - name: Install dependencies
         run: |
           corepack enable
           npm ci
 
-      - name: 构建文档
+      - name: Build documentation
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: Depoloy documentation
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 部署文档
+          # Depoloy documentation
           branch: gh-pages
           folder: src/.vuepress/dist
