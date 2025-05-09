@@ -125,7 +125,7 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Waline",
-      serverURL: "https://waline-kv4r2dbe1-lzo-cattys-projects.vercel.app/",
+      serverURL: "https://waline.cattyday.com",
     },
 
     components: {
