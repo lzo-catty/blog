@@ -16,6 +16,11 @@ export default defineUserConfig({
       title: "博客演示",
       description: "vuepress-theme-hope 的博客演示",
     },
+    "/jp/": {
+      lang: "ja-JP",
+      title: "博客演示",
+      description: "vuepress-theme-hope 的博客演示",
+    },
   },
 
   theme,
