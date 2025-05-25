@@ -7,7 +7,7 @@ heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 雨人部落格
 bgImage: /assets/images/background/homepage.png
 heroFullScreen: true
-tagline: ダラダラと流れる青春の音、乾いたメロディは止まないぜ
+tagline: ダラダラと流れる青春の音\n乾いたメロディは止まないぜ
 projects:
   - icon: project
     name: 项目名称
