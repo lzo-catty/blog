@@ -1,9 +1,9 @@
 ---
-title: Features demo
+title: Japanese
 index: false
 icon: laptop-code
 category:
-  - Guide
+  - japanese
 ---
 
 <Catalog />
