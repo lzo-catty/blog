@@ -5,6 +5,7 @@ icon: home
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 雨人部落格
+bgImage: /assets/images/background/homepage.png
 heroFullScreen: true
 tagline: ダラダラと流れる青春の音、乾いたメロディは止まないぜ
 projects:
