@@ -11,6 +11,7 @@ export const zhNavbar = navbar([
       { text: "网络安全", icon: "pen-to-square", link: "/posts/network-security/README.md" },
       { text: "AI", icon: "pen-to-square", link: "/posts/ai/README.md" },
       { text: "DevOps", icon: "pen-to-square", link: "/posts/devops/README.md" },
+      { text: "开发随记", icon: "pen-to-square", link: "/posts/development/README.md" },
     ],
   }
 ]);

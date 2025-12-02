@@ -9,7 +9,8 @@ export const enNavbar = navbar([
     children: [
       { text: "System Design", icon: "pen-to-square", link: "/en/posts/system-design/README.md" },
       { text: "Japanese", icon: "pen-to-square", link: "/en/posts/japanese/README.md" },
-      { text: "Network Security", icon: "pen-to-square", link: "/en/posts/network-security/README.md" }
+      { text: "Network Security", icon: "pen-to-square", link: "/en/posts/network-security/README.md" },
+      { text: "Development Notes", icon: "pen-to-square", link: "/en/posts/development/README.md" },
     ],
   }
 ]);
